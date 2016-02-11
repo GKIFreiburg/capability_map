@@ -6,11 +6,11 @@ find_package(catkin REQUIRED COMPONENTS
   pluginlib
   roscpp
   visualization_msgs
-  eigen
+  #eigen
   moveit_core
   moveit_ros_planning
 )
-find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 catkin_package(
     INCLUDE_DIRS include
